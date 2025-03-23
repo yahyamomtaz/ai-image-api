@@ -1,0 +1,12 @@
+Flask
+Pillow
+torch
+torchvision
+Flask-Limiter
+gunicorn
+opencv-python
+numpy
+huggingface_hub
+keras
+tensorflow
+pandas
