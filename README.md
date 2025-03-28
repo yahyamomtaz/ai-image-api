@@ -1,10 +1,10 @@
 # AI Image Web App
 
-AI Image Processor is a smart web application, which uses machine learning models to detection and light enhancement of photos.  
-It has two basic features: object detection and image enhancement, gives intelligent image processing right in your browser.
+AI Image Processor is a web application, which uses machine learning models to detection and low-light enhancement of photos.  
+It has two basic features: object detection and image enhancement, gives image processing right in your browser.
 
-<img src="images/detection.png" width="400"> 
-<img src="images/enhancement.png" width="400">
+<img src="images/detection.png" width="500"> 
+<img src="images/enhancement.png" width="500">
 
 
 
