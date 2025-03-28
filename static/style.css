@@ -8,28 +8,6 @@
     --light-green: #D8F5E0;
 }
 
-/* Color Theme Swatches in Hex */
-.Symphony-Sleep-|-Branding-and-Website-Design-1-hex { color: #42594C; }
-.Symphony-Sleep-|-Branding-and-Website-Design-2-hex { color: #84D9A2; }
-.Symphony-Sleep-|-Branding-and-Website-Design-3-hex { color: #F27B50; }
-.Symphony-Sleep-|-Branding-and-Website-Design-4-hex { color: #F2BBB6; }
-.Symphony-Sleep-|-Branding-and-Website-Design-5-hex { color: #0D0D0D; }
-
-/* Color Theme Swatches in RGBA */
-.Symphony-Sleep-|-Branding-and-Website-Design-1-rgba { color: rgba(66, 89, 76, 1); }
-.Symphony-Sleep-|-Branding-and-Website-Design-2-rgba { color: rgba(132, 216, 161, 1); }
-.Symphony-Sleep-|-Branding-and-Website-Design-3-rgba { color: rgba(242, 123, 79, 1); }
-.Symphony-Sleep-|-Branding-and-Website-Design-4-rgba { color: rgba(242, 186, 181, 1); }
-.Symphony-Sleep-|-Branding-and-Website-Design-5-rgba { color: rgba(12, 12, 12, 1); }
-
-/* Color Theme Swatches in HSLA */
-.Symphony-Sleep-|-Branding-and-Website-Design-1-hsla { color: hsla(146, 14, 30, 1); }
-.Symphony-Sleep-|-Branding-and-Website-Design-2-hsla { color: hsla(140, 52, 68, 1); }
-.Symphony-Sleep-|-Branding-and-Website-Design-3-hsla { color: hsla(16, 86, 63, 1); }
-.Symphony-Sleep-|-Branding-and-Website-Design-4-hsla { color: hsla(5, 70, 83, 1); }
-.Symphony-Sleep-|-Branding-and-Website-Design-5-hsla { color: hsla(0, 0, 5, 1); }
-
-
 body, html {
     font-family: 'RobotoMono', monospace;
     background-color: #fff;
@@ -78,7 +56,7 @@ body, html {
   padding: 0 1rem;
 }
 
-.sidebar-enhance:hover, .sidebar-enhance.active, .sidebar-detect:hover, .sidebar-detect.active, .sidebar-about:hover, .sidebar-about.active {
+.sidebar-enhance:hover, .sidebar-detect:hover, .sidebar-about:hover {
   background-color: #fff;
   color: #0D0D0D;
 }
@@ -378,7 +356,6 @@ body, html {
   border: 0;
 }
 
-/* Media queries for responsiveness */
 @media only screen and (max-width: 1366px) {
 
   body {
@@ -430,7 +407,7 @@ body, html {
     flex-direction: column;
   }
 
-  .sidebar-enhance:hover, .sidebar-enhance.active, .sidebar-detect:hover, .sidebar-detect.active, .sidebar-about:hover, .sidebar-about.active {
+  .sidebar-enhance:hover, .sidebar-detect:hover, .sidebar-about:hover {
     border: none;
     background-color:rgba(0, 0, 0, 0);
     color: var(--secondary-color);
@@ -500,7 +477,6 @@ body, html {
     padding: 20px;
   }
 }
-
 
 @media only screen and (max-width:1023px) {
 
@@ -832,7 +808,7 @@ body, html {
     margin-right: .7em;
   }
 
-  .sidebar-enhance:hover, .sidebar-enhance.active, .sidebar-detect:hover, .sidebar-detect.active, .sidebar-about:hover, .sidebar-about.active {
+  .sidebar-enhance:hover, .sidebar-detect:hover, .sidebar-about:hover {
     color: #fff;
   }
 
